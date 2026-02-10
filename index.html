@@ -1,904 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="">
-    <title> Home | Clafiya | Get Quality Care</title>
-<link rel="icon" href="clafiya/favicon.ico">
-    <link rel="stylesheet" href="style.css">
-
+    <title>Home | Clafiya | Get Quality Care</title>
+    <link rel="icon" href="clafiya/favicon copy.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-</head>
-<body>
-  <div class="div-container">
-     <div class="border">
-        <p class="para">Feel something off? Don’t guess—get instant answers from our Free AI Symptom Checker</p>
-      <span class="spa-btn">
-         <button class="spa">Chat Now <span class="img-stroke"><img src="clafiya/whatsapp.svg" alt="whatsapp">
-        </span>
-      </span>
-      <div>
-      </div> </button>
-    </div>
-  
-    <nav class="nav">
-        <span class="span">
-          <img class="img" src="clafiya/GreenLogo.png" alt="GreenLogo" width="123"></span>
-        <ul class="nav-links">
-            <li><a href="clafiya in.htm">HSA <span class="highlight">New</span></a></li>
-            <li><a href="#">Wellness Hub <span class="highlight">New</span></a> </li>
-            <li><a href="#">Care Clinic</a></li>
-            <li><a href="#">About Us</a></li>
-            <span class="drop-head">
-                <li class="resource">
-            Resources
-                <span class="drop">
-                 <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-              <path fill="none" d="M0 0h24v24H0V0z"></path>
-              <path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"></path>
-            </svg>
-              </span>
-            </li>
-            </span>
-           </ul>
-    
-        <span class="user-container">
-          <button class="btn-login">Log In</button>
+
+    <style type="text/tailwindcss">
+      @theme {
+        /* --color-clifford: #da373d; */
+      }
+    </style>
+    <script>
+      module.exports = {
+        theme: {
+          colors: {
+            blue: "#1fb6ff",
+          },
           
-          <button class="btn-sign-up">Sign Up
-             <span class="sign-stroke">
-              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-            <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg>
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- <h1 class="text-3xl font-bold underline text-green-400">Hello world!</h1> -->
+    <div
+      class="lg:h[65px] h[99px] bg-[#8694EF] p-3 font-[500] px-4 w-full text-white text-center flex items-center justify-center marker:flex-col lg:flex-row fixed top-0 z-[90]"
+    >
+      <p class="text-[14px] lg:text-[20px] px-4">
+        Feel something off? Don’t guess—get instant answers from our Free AI
+        Symptom Checker
+      </p>
+      <button
+        class="bg-transparent border-[1px] border-white rounded-full whitespace-nowrap items-center flex justify-center px-3 lg:px-6 py-1 ml-2 mt-2 lg:mt-0 lg:ml-6 text-[12px] lg:text-[20px]"
+      >
+        Chat Now
+        <span class="ml-3 w-[24px]"
+          ><img src="/clafiya/whatsapp.svg" alt=""
+        /></span>
+      </button>
+    </div>
+
+    <div class="container mx-auto px-[20px] lg:px-0">
+      <header
+        class="container lg:opacity-[96%] mx-auto bg-white shadow-sm shadow-slate-300 fixed top-0 z-[99] mt-[105px] lg:mt-[75px] lg:left-[50%] lg:translate-x-[-50%] rounded-full py-4 px-[32px] boxx-shadow h-[64px] lg:h-[96px] flex justify-between items-center w-[90%] lg:w-full"
+      >
+        <div class="flex items-center gap-x-56 ">
+          <span>
+            <a class="text-xl font-bold" href="/">
+              <img src="clafiya/GreenLogo.png" alt="#" width="100" height="95"
+            /></a>
           </span>
+          <button class="ml-2 lg:hidden focus:outline-none">
+            <svg
+              stroke="currentColor"
+              fill="none"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="text-gray-800 w-6 h-6"
+              height="1em"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              …
+            </svg>
           </button>
-          </span>
-   </nav>
+          <nav
+            class="lg:hidden bg-white w-[85%] shadow-xl fixed inset-0 z-[102] transition-transform duration-500 transform -translate-x-[160%]"
+          >
+            <div
+              class="p-4 mt-[28px] border-b border-b-[#e8e8e8] pb-[32px] relative flex justify-between items-center"
+            >
+              <a class="text-xl font-bold" href="/"></a>
+              <button
+                class="bg-white absolute right-[-50px] z-[1882] top-[15px] pl-2 pr-4 py-2 rounded-r-full"
+              >
+                <svg
+                  stroke="currentColor"
+                  fill="none"
+                  stroke-width="2"
+                  viewBox="0 0 24 24"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="text-gray-800"
+                  height="28"
+                  width="28"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  
+                </svg>
+              </button>
+            </div>
+          </nav>
+          <div class="p-4 justify-between">
+            <nav class="flex justify-around ">
+              <ul class="px-1  flex justify-around gap-4">
+                <li
+                  class=" py-3 px-3  my-2 text-[14px]"
+                >
+                  <a class="text-[#111] flex items-center" href="/"> </a>HSA
+                  <span class="bg-yellow-600 rounded-sm px-2 py-1 text-blue-50">New</span>
+                </li>
+                <li class="false py-3 px-3 rounded-[8px] my-2 text-[14px]">
+                  <a
+                    class="text-[#111] flex items-center"
+                    href="/health-savings-account"
+                    >Wellness <span class="bg-yellow-600 rounded-sm px-2 py-1 text-blue-50">Hub</span></a
+                  >
+                </li>
+                <li class="false py-3 px-3 rounded-[8px] my-2 text-[14px]">
+                  <a
+                    class="text-[#111] flex items-center"
+                    href="/health-savings-account"
+                    >Care Clinic</a
+                  >
+                </li>
+                <li class="false py-3 px-3 rounded-[8px] my-2 text-[14px]">
+                  <a
+                    class="text-[#111] flex items-center"
+                    href="/health-savings-account"
+                    >About Us</a
+                  >
+                </li>
+                <li class="false py-3 px-3 rounded-[8px] my-2 text-[14px]">
+                  <a
+                    class="text-[#111] flex items-center"
+                    href="/health-savings-account"
+                    >Resources</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+</div>
+          <div class=" lg:flex items-center lg:space-x-2 ">
+            <a target="_blank" href="https://my.clafiya.com/auth/login"
+              >
+              <button
+                class="bg-white px-[15px] text-[#111] border undefined border-white rounded-full py-[14px] px-6 transition-colors duration-300 blue-600 white blue-600 !whitespace-nowrap flex items-center text-[13px] hover:bg-opacity-90 lg:text-[16px] relative"
+              >
+                Log In
+              </button></a
+            >
+            <a target="_blank" href="https://my.clafiya.com/auth/registration">
+              <button
+                class="bg-primary bg-green-500 px-[15px] border-none text-white border undefined undefined rounded-full py-2 px-6 transition-colors duration-300 undefined white undefined !whitespace-nowrap flex items-center text-[13px] hover:bg-opacity-90 lg:text-[16px] relative"
+              >
+                Sign Up<svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" class="ml-2" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"></svg>
+              </button></a>
+            
+          </div>
+        </div>
+      </header>
+    </div>
+    <section class="flex mt-52 flex-col lg:flex-row items-center justify-between container mx-auto px-[20px lg:px[32px]]">
+    <div class="w-full lg:w-[75%]">
+      <h2 class="lg:text-[50px] text-center leading-[60px] lg:leading[69px] w-full lg:w-[85%]  mx-auto text-[24px] capitalize font-fraunces font-bold">Accessing Health and Wellness through Health Savings Accounts</h2>
+     </div>
+      <div class="w-full lg:w-[40%]">
+      <p class="text-[16px] mt-2 text-center lg:text-[18px] text-[#666] mx-auto font-bold">Your HSA is your key to saving big on health and wellness needs, earning interest, and enjoying discounted healthcare services from our partners.</p>
+   
+   <div class="flex lg:justify-start justify-center items-center mt-6 w-full bg-blue-700">
+    <button class="bg-white mr-4 text-black borrder-[3px] border-white  rounded-full py-[14px] px-6 transition-colors duration-300 blue-600 white blue-600 !whitespace-nowrap flex items-center text-[13px] hover:bg-opacity-90 lg:text-[16px] relative">
+      Get Started</button>
+   <button class="bg-white  text-[#111] borrder-[3px] border-[#e8e8e8]  rounded-full py-[14px] px-6 transition-colors duration-300 blue-600 white blue-600 !whitespace-nowrap flex items-center text-[13px] hover:bg-opacity-90 lg:text-[16px] relative">
+     Learn About Hsa
    </div>
-    <div class="access">
-      <h2 class="access-head">
-        Accessing Health and Wellness Through Health Savings Accounts
-      </h2>
-      <div class="joint">
-        <p class="access-para">
-          Your HSA is your key to saving big on health and wellness needs,
-          earning interest, and enjoying discounted healthcare services from our
-          parthners
-        </p>
-        <div class="btn-con">
-          <button class="startbtn">Get Started
-             <span class="start-stroke">
-            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg> </span>
-         </button>
-        
-          <button class="learnbtn">Learn about HSA</button>
-      </div>
-    </div>
-
-</div>
-<span class="clafiya-img">
-<img src="hero1.jpg" alt="hero" width="100%" style="margin-bottom: 7rem;">
-</span>
-<!-- <img src="hero1.jpg" alt="hero" width="1740" height="700"> -->
-<div class="hsa-container">
-  <div class="content-container">
-    <h1 class="hsa-heading">
-        Our HSA is your safety net
-    </h1>
-    <p class="hsa-para">
-      Everything is expensive; health and wellness costs even more, and we're here to make sure staying healthy doesn't put a dent in your wallet. Our Health
-         Savings Account (HSA) is your safety net.
-        </p>
-<div class="hsa-tags">
-<div class="hsa-wallet">
-  <img src="clafiya/icon.svg" alt="g">
-<div class="wallet-content"> <h4 class="wallet-head">Health and finance</h4>
-<p class="wallet-para">Create a cushion for unexpected health expenses - no more choosing between health and finances.</p>
-
-</div></div>
-   
-<div class="hsa-wallet"><img src="clafiya/icon2.svg" alt="#">
-<div class="wallet-content"> <h4 class="wallet-head"> Smart savings</h4>
-
-<p class="wallet-para">Grow your savings while planning for health and wellness needs. Plus, you earn 10% interest p.a.
-</p></div>
-  
-</div>
-<div class="hsa-wallet"> <img src="clafiya/icon3.svg" alt="#">
-<div class="wallet-content"> <h4 class="wallet-head"> Easy payments</h4>
-<p class="wallet-para">Pay for services and products at your favorite health and wellness providers using your HSA.
-</p></div>
-  
-</div>
-<div class="hsa-wallet"><img src="clafiya/icon4.svg" alt="#">
-<div class="wallet-content"> <h4 class="wallet-head"> Up to 30% off health costs</h4>
-<p class="wallet-para">Get exclusive access to top-notch health and wellness services and products, at discounted rates.
-</p></div>
-  
-</div>
-</div>
-<span>
- <button class="saving-container">Start Saving
-  <span class="save-stroke">
-  <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em"
-   width="1em" xmlns="http://www.w3.org/2000/svg">
-   <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3
-    0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7
-    0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></span></button> 
-</span>
-</div>
-<span class="image-container">
-<img class="image-icon" src="clafiya/HSA002.png" alt="HSA002" width="700" height="670">
-</span>
-</div>
-
-<div class="clinic-container">
-  <div class="care-content">
-    <h3 class="care-heading">
-    Clafiya Care Clinic
-  </h3>
-<p class="care-para">
-  Reimagining how you access health and wellness by bringing it closer to you – convenient , quality , and affordable.
-</p></div>
-<span>
-  <button class="btn-getstarted">
-  Get Started 
-  <span class="get-stroke">
-    <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
-      <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg>
-  </span>
-  </button>
-</span>
-</div>
-
-
-  <div class="bag-heading">
-  <div class="bag-content">
-    <div class="text-con">
-    <h3 class="talk-con">
-      Talk To A Doctor
-    Anytime,Anywhere
-</h3>
-<p class="talk-paragragh">
-Talk to our care team from your home,through home visits or online consultants.
-</p>
-</div>
-  <span class="bag-image">
-  <img class="bag-radius" src="clafiya/talk.png" alt="drugs" width="500" height="370">
-</span>
-
-</div>
-<div class="less-content">
-    <div class="text-cont">
-  <h3 class="talk-con2">
-    Diagnostic tests made easy</h3>
-  <p class="talk-paragragh2">
-Access any diagnostic test for quick and apt health checks.
-</p>
-</div>
-  <span class="less-image"> 
-    <img class="less-radius" src="clafiya/girl2.jpeg" alt="nurse" width="500" height="370">
-  </span>
-
-</div>
-</div>
-
-
-  <div class="drug-heading">
-  <div class="drug-content" style="width: 100%;">
-  <span class="drug-image">
-  <img class="drug-radius" src="clafiya/drugs.jpeg" alt="drugs" width="500" height="370">
-</span>
-<div class="text-content" style="width: 40%; line-height: 2
-30px;">
-    <h3 class="talk-content" style="margin-block: 16px;">Meds straight to
-your home
-</h3>
-<p class="talk-paragragh">
-Get prescribed drugs from our care team delivered to your doorstep.
-</p>
-</div>
-</div>
-<div class="nurse-content">
-  <span class="nurse-image"> <img class="nurse-radius" src="clafiya/nurse.jpeg" alt="nurse" width="500" height="370">
-  </span>
-  <div class="text-content">
-  <h3 class="talk-content">
-    Specialized care</h3>
-  <p class="talk-paragragh" style="width: 80%;">
-Connect with medical experts, including mental health specialists, for care and treatment tailored to you.
-</p>
-</div>
-</div>
-</div>
-</div> 
-</div> 
-
-<section class="grid">
-  <div class="psc-container" style="gap: 30px;">
-  <div class="palete-container">
-  <span>
-    <img src="clafiya/palete.svg" alt="palete">
-  </span>
-  <h3 class="addhead">Order Medication</h3>
-  <p class="add">
-Order your prescribed or over-the-counter medications easily, and have them delivered to your door or pick them up at a nearby pharmacy.
-</p>
-
-</div>
-<div class="specialist-container">
-<span>
-  <img src="clafiya/specialist.svg" alt="specialist">
-</span>
-<h3 class="addhead">
-  Consult with a Specialist
-</h3>
-<p class="add2">
-  Get expert advice from medical specialists across various fields. Ensure you’re on the right treatment path.
-</p>
-</div>
-<div style="margin-left: 110px;" class="care-container">
-<span>
-  <img src="clafiya/care.svg" alt="care">
-</span>
-<h3 class="addhead">Find a Care Giver</h3>
-<p class="add3">
-  Get home healthcare for your loved ones. Our caregivers assist with daily tasks, medication, and health updates, ensuring their well-being.
-</p>
-</div>
-</div>
-<div class="sdh-container" style="gap: 30px;">
-<div class="speak-content">
-<span>
-  <img src="clafiya/speak.svg" alt="speak">
-</span>
-<h3 class="addhead">
-  Speak Now
-</h3>
-<p class="add4">
-  Start an instant call with a Doctor in case of an emergency at any time of the day. Available 24/7 for your peace of mind.
-</p>
-</div>
-<div class="diagnostic-container">
-<span>
-  <img src="clafiya/diagnostics.svg" alt="diagnostic">
-</span>
-<h3 class="addhead">Get Diagnostics</h3>
-<p class="add5">
-  Access a wide range of diagnostic tests to understand your health status better. Quick and accurate results guaranteed.
-</p>
-</div>
-<div class="health-container" style="margin-right: 160px;">
-<span>
-  <img src="clafiya/health.svg" alt="health">
-</span>
-<h3 class="addhead">Get Mental Health Care</h3>
-<p class="add6">Receive support and counseling from certified mental health professionals. Your mental well-being matters.
-</p>
-</div>
-</div>
-
-</div>
-</section>
-
-
-</div>
-<div class="hsa-container">
-  <div class="content-container">
-    <h1 class="hsa-heading">
-       Health and Wellness Hub
-    </h1>
-    <p class="hsa-para">
-      Access a marketplace of holistic health and wellness merchants, such as hospitals, pharmacies, spas, gyms, mental health, skincare, and more to support you on your wellness journey.
-        </p>
-<div class="hsa-tags">
-<div class="hsa-wallet">
-  <img src="clafiya/easy.png" alt="easy" >
-<div class="wallet-content"> <h4 class="wallet-head2">Easy access to top-tier care</h4>
-  <p class="wallet-para">Discover trusted health and wellness centers, from hospitals and pharmacies to spas and gyms, for all your needs.</p>
-</div>
-</div>
-   
-<div class="hsa-wallet"><img src="clafiya/benefits.png" alt="benefits" >
-<div class="wallet-content"> <h4 class="wallet-head2">Exclusive discounts </h4>
-
-<p class="wallet-para">Get up to 30% off health and wellness products and services from our partners.
-</p>
-</div>
-  
-</div>
-<div class="hsa-wallet"> <img src="clafiya/quick.png" alt="quick" >
-<div class="wallet-content"> <h4 class="wallet-head2">Quick, easy payment</h4>
-<p class="wallet-para"> Use your Health Savings Account (HSA) to pay for services and products at your favorite health and wellness providers.
-</p>
-</div>
-  
-</div>
-
-</div>
-
-</div>
-<span class="image-container">
-<img class="image-icon" src="clafiya/featured.svg" alt="featured" width="500">
-</span>
-</div>
-
-</div>
-
-  <button class="health-btn">
-       
-          Get Started 
-           <span class="stroke">
-            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em"
-   width="1em" xmlns="http://www.w3.org/2000/svg">
-   <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3
-    0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7
-    0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"></path></svg></span></button> 
-        
-        </button>
-      </div>
-      </section>
-      </div>
-
-      <div class="swiper">
-        <div class="swiper-wrapper">
-           <div class="swiper-slide" style="z-index: 2;">
-               <span class="swiper-image">
-               <img src="clafiya/logo7) (2).png" alt="logo" width="140">
-              </span>
-              </div>
-           <div class="swiper-slide" style="z-index: 1;">     
-                 <span class="swiper-image">
-<img src="clafiya/logo8).png" alt="logo8" width="140" height="149">
-                  </span>
-                  </div>
-           <div class="swiper-slide" style="z-index: 0;">
-                   <span class="swiper-image">
-<img src="clafiya/logo9).png" alt="logo9" width="140">
-                    </span>
-                    </div>
-          <div class="swiper-slide" style="z-index: 8;">
-          <span class="swiper-image">
-<img src="clafiya/logo5) (1).png" alt="logo1" width="140">
-             </span>
-             </div>
-             <div class="swiper-slide" style="z-index: 7;">
-            <span class="swiper-image">
-<img src="clafiya/logo2).png" alt="logo2" width="140">
-               </span>
-               </div>
-               <div class="swiper-slide" style="z-index: 6;">
-              <span class="swiper-image">
-            <img src="clafiya/logo3).png" alt="logo3" width="140">
-            </span>
-            </div>
-            <div class="swiper-slide" style="z-index: 5;">
-         <span class="swiper-image">
-<img src="clafiya/logo4).png" alt="logo4" width="140" >
-           </span>
-           </div>
-           <div class="swiper-slide" style="z-index: 4;">
-            <span class="swiper-image">
-<img src="clafiya/logo1) (5).png" alt="logo5" width="140">
-             </span>
-             </div>
-             <div class="swiper-slide" style="z-index: 3;">
-              <span class="swiper-image">
-                <img src="clafiya/logo6).png" alt="logo7" width="140">
-              </span>
-              </div>
-              <div class="swiper-slide" style="z-index: 2;">
-               <span class="swiper-image">
-               <img src="clafiya/logo7) (2).png" alt="logo" width="140">
-              </span>
-              </div>
-              <div class="swiper-slide" style="z-index: 1;">     
-                 <span class="swiper-image">
-<img src="clafiya/logo8).png" alt="logo8" width="140" height="149">
-                  </span>
-                  </div>
-                  <div class="swiper-slide" style="z-index: 0;">
-                   <span class="swiper-image">
-<img src="clafiya/logo9).png" alt="logo9" width="140">
-                    </span>
-                    </div>
-        </div> 
-        <div class="swiper-wrapper swiper-wrapper-2">
-           <div class="swiper-slide" style="z-index: 2;">
-               <span class="swiper-image">
-               <img src="clafiya/logo7) (2).png" alt="logo" width="140">
-              </span>
-              </div>
-           <div class="swiper-slide" style="z-index: 1;">     
-                 <span class="swiper-image">
-<img src="clafiya/logo8).png" alt="logo8" width="140" height="149">
-                  </span>
-                  </div>
-           <div class="swiper-slide" style="z-index: 0;">
-                   <span class="swiper-image">
-<img src="clafiya/logo9).png" alt="logo9" width="140">
-                    </span>
-                    </div>
-          <div class="swiper-slide" style="z-index: 8;">
-          <span class="swiper-image">
-<img src="clafiya/logo5) (1).png" alt="logo1" width="140">
-             </span>
-             </div>
-             <div class="swiper-slide" style="z-index: 7;">
-            <span class="swiper-image">
-<img src="clafiya/logo2).png" alt="logo2" width="140">
-               </span>
-               </div>
-               <div class="swiper-slide" style="z-index: 6;">
-              <span class="swiper-image">
-            <img src="clafiya/logo3).png" alt="logo3" width="140">
-            </span>
-            </div>
-            <div class="swiper-slide" style="z-index: 5;">
-         <span class="swiper-image">
-<img src="clafiya/logo4).png" alt="logo4" width="140" >
-           </span>
-           </div>
-           <div class="swiper-slide" style="z-index: 4;">
-            <span class="swiper-image">
-<img src="clafiya/logo1) (5).png" alt="logo5" width="140">
-             </span>
-             </div>
-             <div class="swiper-slide" style="z-index: 3;">
-              <span class="swiper-image">
-                <img src="clafiya/logo6).png" alt="logo7" width="140">
-              </span>
-              </div>
-              <div class="swiper-slide" style="z-index: 2;">
-               <span class="swiper-image">
-               <img src="clafiya/logo7) (2).png" alt="logo" width="140">
-              </span>
-              </div>
-              <div class="swiper-slide" style="z-index: 1;">     
-                 <span class="swiper-image">
-<img src="clafiya/logo8).png" alt="logo8" width="140" height="149">
-                  </span>
-                  </div>
-                  <div class="swiper-slide" style="z-index: 0;">
-                   <span class="swiper-image">
-<img src="clafiya/logo9).png" alt="logo9" width="140">
-                    </span>
-                    </div>
-        </div> 
-      </div>
-
-     <section>
-        <div class="save-content">
-          <div class="flex-con">
-          <div class="pig-img">
-            <span>
-            <img src="clafiya/savecoins (1).svg" alt="savecoins" width="300">
-          </span>
-          </div>
-          <div class="root">
-          <div class="save-texts">
-          <h2 style="font-size: 72px; width: 90%; font-family: fraunces; color: #fff;">Save, Spend, <span style="color: rgb(233, 233, 233); ">and</span>  Earn <span style="color: rgb(233, 233, 233);">for your health</span></h2>
-<p style="font-size: 22px; width: 62%; color: #fff;"> Stay ahead of healthcare costs with Clafiya's HSA. Save and spend on your health and wellness needs without extra charges while earning interest on your funds.</p>
-     </div>
-     <div class="coin-img"> 
-     <span>
-      <img src="clafiya/coin.png" alt="coin" width="110" height="100"> 
-     </span>
-     </div>
-     </div>
-     </div>
-<div class="wellness-container">
-  <div class="health-saving-container">
-    <ul>
-    <li>
-  <span class="swipe"><img src="clafiya/add (1).png" width="40" height="40" alt="save"><h4> Health Care</h4>
-  </li>
-  <li>
-<span class="swipe"><img src="clafiya/save (1).png" width="40" height="40" alt="bag">  <h4> Health Savings Account</h4>
-  </li>
-  <li>
-<span class="swipe"><img src="clafiya/bag (1).png" width="40" height="40" alt="diamond"><h4> Wellness Hub</h4>
- </li>
-  <li>
-<span class="swipe"><img src="clafiya/diamond (1).png" width="40" height="40" alt="plus"><h4> Premium Care</h4>
- </li>
-  <li>
-<span class="swipe"><img src="clafiya/plus.png" width="40" height="40" alt="coin"><h4> Care Clinic</h4>
-  </li>
-  <li>
-<span class="swipe"><img src="clafiya/coin (1).png" width="40" height="40" alt="heart"><h4> save and Earn</h4>
-  </li>
-  <li>
-  <span class="swipe"><img src="clafiya/add (1).png" width="40" height="40" alt="save"><h4> Health Care</h4>
-  </li>
-  <li>
-<span class="swipe"><img src="clafiya/save (1).png" width="40" height="40" alt="bag">  <h4> Health Savings Account</h4>
-  </li>
-  </ul>
-  </div>
-
-    <div class="animate">
-      <ul class="list">
-  <li>
-  <span class="swipe"><img src="clafiya/heart (1).png" width="40" height="40" alt="save2"><h4>Fitness</h4> </span>
-  
-</li>
-     <li>
-  <span class="swipe"><img src="clafiya/coin (1).png" width="40" height="40" alt="heart"><h4>Save and Earn</h4> </span>
- </li>
-  <li>
-  
-  <span class="swipe"><img src="clafiya/plus.png" width="40" height="40" alt=""><h4>Care Clinic</h4> </span>
-  </li>
-  <li>
-  <span class="swipe"><img src="clafiya/diamond (1).png" width="40" height="40" alt="bag2"><h4>Premium Care</h4> </span>
-  </li>
-   <li>
-  <span class="swipe"><img src="clafiya/bag (1).png" width="40" height="40" alt="plus"><h4>Wellness Hub</h4> </span>
- </li>
-  <li>
-    <span class="swipe"><img src="clafiya/save (1).png" width="40" height="40" alt="save"><h4>Health Savings Account</h4> </span>
-</li>
- <li>
-  <span class="swipe"><img src="clafiya/heart (1).png" width="40" height="40" alt="save2"><h4>Fitness</h4> </span>
-  
-</li>
-     <li>
-  <span class="swipe"><img src="clafiya/coin (1).png" width="40" height="40" alt="heart"><h4>Save and Earn</h4> </span>
- </li>
- </ul>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-
-       </section>
-       <section>
-        
-        <div class="swipe-head">
-          <h3 style="text-align: center; font-size: 48px; margin-bottom: 10px;">Speak To a Doctor</h3>
-        </div>
-        <div style="padding-bottom: 8rem;" class="swipegrid">
-        <div class="swipecon">
-  
-  <div class="speak-con">
-  <span>
-    <img  class="health-image" src="clafiya/sickness12 (1).svg" alt="sickness12" width="168" height="178">
-  </span>  
-  <p class="swipe-paragragh">
-Headache,Migrane
-</p>
-</div>
-<div class="speak-con">
-<span>
-  <img  class="health-image" src="clafiya/sickness19 (1).svg" alt="sickness19" width="168" height="178">
-</span>
-<p class="swipe-paragragh">
-  Fever,  Cough, Catarrh
-</p>
-</div>
-<div class="speak-con">
-<span>
-  <img  class="health-image" src="clafiya/sickness18 (1).svg" alt="sickness17" width="168" height="178">
-</span>
-<p class="swipe-paragragh">
- Allergies&Sinus Issues
-</p>
-</div>
-<div class="speak-con">
-<span>
-  <img  class="health-image" src="clafiya/sickness17.svg " alt="sickness17" width="168" height="178">
-</span>
-<p class="swipe-paragragh">
-Diarrhoea, Stomach Upset,Constipation
-</p>
-</div>
-<div class="speak-con">
-<span>
-  <img  class="health-image" src="clafiya/sickness10 (1).svg" alt="sickness17" width="168" height="178">
-</span>
-<p class="swipe-paragragh">
-  UTI & STI
-  </p>
-  </div>
-<div class="speak-con">
-<span>
-  <img  class="health-image" src="clafiya/sickness14.svg" alt="sickness14" width="168" height="178">
-</span>
-<p class="swipe-paragragh">
-Pregnancy Related,Women’s Health
-</p>
-</div>
-</div>
-<div class="swipecon">
-<div class="speak-con">
-<span>
-  <img  class="health-image" src="clafiya/sickness11.svg" alt="sickness11" width="168" height="178">
-</span>
-<p class="swipe-paragragh">
-  General Mens Health,Premature ejaculation
-</p>
-</div>
-<div class="speak-con">
-<span>
-  <img  class="health-image" src="clafiya/sickness00.svg" alt="sickness"
- width="168" height="178"></span>
-<p class="swipe-paragragh">
-  Acne, Rash&other skin infections
-</p>
-</div>
-<div class="speak-con">
-<span>
-  <img  class="health-image" src="clafiya/sickness15.svg" alt="sickness15" width="168" height="178">
-</span>
-<p class="swipe-paragragh">
-Anxiety, Depression & Other Mental Health
-</p>
-</div>
-<div class="speak-con">
-<span>
-  <img  class="health-image" src="clafiya/sickness9.svg" alt="sickness9" width="168" height="178">
-</span>
-<p class="swipe-paragragh">
-High Blood Pressure&High Cholesterol
-</p>
-</div>
-<div class="speak-con">
-<span>
-  <img  class="health-image" src="clafiya/sickness8.svg" alt="sickness8" width="168" height="178">
-</span>
-<p class="swipe-paragragh">
-Pink Eye & General Eye Care
-</p>
-</div>
-<div class="speak-con">
-<span>
-  <img  class="health-image" src="clafiya/sickness1.svg" alt="sickness00" width="168" height="178">
-</span>
-<p class="swipe-paragragh">
-Teething Problems & Childhood illness
-</p>
-</div>
-</div>
-</div>
-</div>
-
-</div>
-</section>  
-
-
-			<section class="testimonials">
-        <div class="flex-box">
-        <div class="testimonial-heading">
-         <img  src="clafiya/Heading (1).png" alt="Heading" width="130" height="100">
-         <div class="testimonial-flex">
-         <h2 style="font-size: 51px; width: 90%;">Don’t just take our word for it</h2>
-         <p style="font-size: 20px; color: #696969; font-family: outfit, sans-serif; margin-bottom: 40px;">Here’s what some of our customers have to say about us</p>
-         </div>
-         </div>
-        <div class="swiper-two">
-				<!-- Card 1 -->
-				<article style="height: 37vh;" class="card">
-					<p class="center-you" style="font-size: 1.2rem;">
-						Nothing I hate more than an overnight sickness. Too weak to go to
-						the hospital. Clafiya to the rescue.
-					</p>
-					<div class="footer">
-						<div class="profile">
-							<img src="clafiya/female.svg" alt="">
-							<div class="meta">
-								<div class="name">Human Miracle</div>
-								<div class="handle">@ruthdulac</div>
-							</div>
-						</div>
-						<span class="icon">
-						<i class="fa-brands fa-x-twitter"></i>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-              <path d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"/>
-            </svg>twitter
-            </span>
-					</div>
-				</article>
-
-          <article style="height: 57vh;" class="card">
-					<p class="center-you" style="font-size: 1.2rem;">
-						Clafiya has been a game-changer for our business. We've been able to
-						provide quality healthcare to our employees at a fraction of the
-						cost of traditional providers.
-					</p>
-					<div class="footer">
-						<div class="profile">
-							<img src="clafiya/female.svg" alt="" />
-							<div class="meta">
-								<div class="name">Augustina Ochioju</div>
-								<div class="handle">@person</div>
-							</div>
-						</div>
-            <span class="icon">
-						<i class="fa-brands fa-x-twitter"></i>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-              <path d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"/>
-            </svg>twitter
-            </span>
-					</div>
-				</article>
- 
-
-        		<!-- Card 3 -->
-				<article style="height: 50vh;" class="card">
-					<p class="center-you" style="font-size: 1.2rem;">
-						The past few days have been crazy for me. @clafiya have been there
-						through each day. Reliability is a beautiful thing. Told me my meds
-						will be delivered by 10am and I got it by the exact time.
-					</p>
-					<div class="footer">
-						<div class="profile">
-							<img src="clafiya/male.svg" alt="" />
-							<div class="meta">
-								<div class="name">DC Okoli</div>
-								<div class="handle">@dcokoli</div>
-							</div>
-						</div>
-				<span class="icon">
-						<i class="fa-brands fa-x-twitter"></i>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-              <path d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"/>
-            </svg>twitter
-            </span>
-					</div>
-				</article>
-
-         <article style="height: 60vh;" class="card">
-					<p class="center-you" style="font-size: 1.1rem;">
-					Checked my BP last year and i got 140/something reading , i never went back to the hospital because i always feared that if you naim and you go find something.
-      Clafiya came to our office a few weeks ago and did a free health gare for us, so i decided to check again, got 149/91.
-					</p>
-					<div class="footer">
-						<div class="profile">
-							<img src="clafiya/male.svg" alt="male">
-							<div class="meta">
-								<div class="name">Seye dele</div>
-								<div class="handle">@seyedele</div>
-							</div>
-						</div>
-						<span class="icon">
-						<i class="fa-brands fa-x-twitter"></i>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
-              <path d="M453.2 112L523.8 112L369.6 288.2L551 528L409 528L297.7 382.6L170.5 528L99.8 528L264.7 339.5L90.8 112L236.4 112L336.9 244.9L453.2 112zM428.4 485.8L467.5 485.8L215.1 152L173.1 152L428.4 485.8z"/>
-            </svg>twitter
-            </span>
-					</div>
-				</article>
-
-
-
-		
-
-        
-        </div>
-</div>
-</section>
-
-
-<footer class="section-container">
-  <div class="section-content">
-  <section class="section">
-    <div class="lines">
-      <img src="clafiya/liness.png" alt="lines">
-    </div>
-    <div class="text-box">
-      <h1 class="title">Start Your Health <br>  Journey Now</h1>
-      <p class="describe">Save money, earn interest, and access care easily with  Clafiya</p>
-      <div class="action">
-        <button class="get-btn"><a href="#">GET STARTED</a></button>
-        <div class="trust">
-          <div>
-          <img src="clafiya/shield.png" alt="shield" width="50" height="50">
-        </div>
-        <div>
-          <span class="trust-text">TRUSTED AND LOVED BY <span class="humans">3K+ HEALTHY HUMANS</span>
-           </span>
-          </div>
-      </div>
-    </div>
-    </div>
-
-    <div class="image-con">
-      <img src="clafiya/newflyy (1).png" alt="newflyy" width="535" height="503">
-    </div>
+   </div>
     </section>
-  </section>
-  <div style="color: white;" class="footer-con">
-  <div class="footer-head"> 
-    <h3>SERVICES</h3>
-    <p class="foot-para"><a href="#">Care Clinic</a></p>
-    <p class="foot-para"><a href="#">HSA <span class="highlight-two">NEW</span></a></p>
-    <P class="foot-para"><a href="#">Wellness Hub <span class="highlight-two">NEW</span></a></P>
-  </div>  
-  <div class="footer-head"> 
-    <h3>COMPANY</h3>
-    <p class="foot-para"><a href="#">Blog</a></p>
-    <p class="foot-para"><a href="#">FAQ</a></p>
-    <p class="foot-para"><a href="#">About Us</a></p>
-  </div> 
-  <div class="footer-head">
-     <h3>LEGAL</h3>
-    <p class="foot-para"><a href="#">Privacy Policy</a></p>
-<p class="foot-para"><a href="#">Terms of Use</a></p>
-<p class="foot-para"><a href="#">Cookie Policy</a></p>
-
-    </div> 
-  <div class="footer-head">
-     <h3>CONTACT</h3>
-     <p class="foot-para"><a href="#">+2349134275854</a></p>
-     <p class="foot-para"><a href="#">hi@clafiya.com</a></p>
-    </div> 
-    <div class="flex-foot">
-<h2 style="font-size: 64px; font-family: fraunces;">Join our community</h2>
-<p class="foot-para" style="font-size: 20px;">Need someone to share your health goals with?
-  Join our community of smart savers! Sigh uo for our newsletter today
-</p>
-<div class="dev">
-<div class="input-head">
-<div class="input">
-   <input class="inherit" type="text" placeholder="Your Name">
- </div>
- <div class="input-two">
-   <input class="inherit" type="text" placeholder="Your Email">
-</div>
-  <button type="submit" class="join-btn">Join</button>
-</div>
-  </div>
-  </div>
-
-
-
-<footer class="last-footer">
-  <span>
-    <img style="vertical-align: middle;" src="clafiya/whatsapp (2).svg" alt="whatsapp" width="52" height="57">
-  </span>
-  </footer>
-  </div>
-
-  
-<div class="whitelogo">
-  <span>
-    <img src="clafiya/WhiteLogo.png" alt="#" width="160">
-  </span>
-  <div class="images">
-  <span class="png-span">
-    <img src="clafiya/download (1).png" alt="#" width="25" style="background-color: black;">
-   </span>
-   <span class="png-span">
-    <img src="clafiya/download (2).png" alt="#" width="28" height="27" style="border-radius: 200%;">
-    </span>
-    <span class="png-span">
-    <img src="clafiya/x.png" alt="#" width="23">
-   </span>
-   <span class="png-span">
-    <img src="clafiya/download (3).png" alt="#" width="27" height="25">
-   </span>
-   <span class="png-span">
-    <img src="clafiya/download (6).png" alt="#" width="23" style="background-color: black;">
-  </span>
-  </div>
-</div>
-<div  class="last-p" style="color: white; text-align:  center; margin-top: 1rem;">
-  Clafiya Copyright© 2025. All Rights Reserved.
-   </div>
-</footer>
-</footer>
-
-</body>
-</html>  
+  </body>
+</html>
